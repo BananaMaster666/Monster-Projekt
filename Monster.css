@@ -1,9 +1,21 @@
 @charset "utf-8";
 /* CSS Document */
 h1 
-{ 
+{ 	
+	margin-top: 100px;
 	color: #fff;
-	font-family: 
+	font-family: "Teko Semibold";
+	font-size: 450%;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+}
+h2 
+{ 	
+	margin-top: 20px;
+	color: #fff;
+	font-family: "Teko Semibold";
+	font-size: 450%;
 	text-transform: uppercase;
 	font-weight: 900;
 	text-align: center;
@@ -11,5 +23,57 @@ h1
 
 body 
 {
-	background-color: midnightblue;
+	background-color: black;
+}
+
+hr
+{
+	color:greenyellow;
+	background-color: greenyellow;
+	border-color: greenyellow;
+	border-width: thick;
+	margin-top: -45px;
+}
+
+div {
+	
+    color:antiquewhite;
+    width: 1070px;
+	height: 400px;
+    border: 15px solid greenyellow;
+    padding: 50px;
+    margin: auto;
+	margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+}
+
+li a {
+	float: left;
+	font-family: "Teko Medium";
+	font-size: 180%;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: greenyellow;
+}
+
+p
+{
+	font-family: "Teko Medium";
+	font-size: 130%;
 }
