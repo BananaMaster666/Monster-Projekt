@@ -37,7 +37,7 @@ hr
 
 div {
 	
-    color:antiquewhite;
+    color:floralwhite;
     width: 1070px;
 	height: 400px;
     border: 15px solid greenyellow;
@@ -76,4 +76,8 @@ p
 {
 	font-family: "Teko Medium";
 	font-size: 130%;
+}
+img
+{
+	align-self: center;
 }
